@@ -1,14 +1,12 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { StoreProvider } from "./store/provider";
+import { ShopNavigator } from "./navigation";
 
 export default function App() {
-
   return (
     <StoreProvider>
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-      </View>
+      <ShopNavigator />
     </StoreProvider>
   );
 }

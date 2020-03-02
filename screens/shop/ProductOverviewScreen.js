@@ -13,3 +13,7 @@ export const ProductOverviewScreen = ({}) => {
     ></FlatList>
   );
 };
+
+ProductOverviewScreen.navigationOptions = {
+  headerTitle: 'All Products'
+}
